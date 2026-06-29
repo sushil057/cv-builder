@@ -1,46 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Europass CV Builder</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<div id="app">
-
-  <!-- ══ SIDEBAR ══ -->
-  <aside id="sidebar">
-    <div id="sidebar-header">
-      <div id="sidebar-logo">EP</div>
-      <div>
-        <div id="sidebar-title">CV Builder</div>
-        <div id="sidebar-sub">Europass Format</div>
-      </div>
-    </div>
-    <div id="cv-list"></div>
-    <button id="btn-new-cv">+ New CV</button>
-  </aside>
-
-  <!-- ══ EDITOR ══ -->
-  <section id="editor">
-    <div id="editor-header">
-      <span id="editor-title">Edit CV</span>
-      <button id="btn-export-pdf">⬇ Export PDF</button>
-    </div>
-    <div id="editor-body"></div>
-  </section>
-
-  <!-- ══ PREVIEW ══ -->
-  <main id="preview-wrap">
-    <div id="preview-toolbar">
-      <span id="preview-label">Live Preview</span>
-      <span id="preview-hint">800 px · A4</span>
-    </div>
-    <div id="cv-preview"></div>
-  </main>
-
-</div>
-<script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Europass CV Builder</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
